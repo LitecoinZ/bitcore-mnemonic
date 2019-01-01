@@ -16,13 +16,13 @@ var spec = {
   }]
 };
 
-module.exports = require('bitcore-lib').errors.extend(spec);
+module.exports = require('bitcore-lib-litecoinz').errors.extend(spec);
 
-},{"bitcore-lib":"bitcore-lib"}],2:[function(require,module,exports){
+},{"bitcore-lib-litecoinz":"bitcore-lib-litecoinz"}],2:[function(require,module,exports){
 (function (Buffer){
 'use strict';
 
-var bitcore = require('bitcore-lib');
+var bitcore = require('bitcore-lib-litecoinz');
 var BN = bitcore.crypto.BN;
 var unorm = require('unorm');
 var _ = bitcore.deps._;
@@ -320,7 +320,7 @@ Mnemonic.bitcore = bitcore;
 module.exports = Mnemonic;
 
 }).call(this,require("buffer").Buffer)
-},{"./errors":1,"./pbkdf2":3,"./words":7,"bitcore-lib":"bitcore-lib","buffer":58,"unorm":165}],3:[function(require,module,exports){
+},{"./errors":1,"./pbkdf2":3,"./words":7,"bitcore-lib-litecoinz":"bitcore-lib-litecoinz","buffer":58,"unorm":165}],3:[function(require,module,exports){
 (function (Buffer){
 'use strict';
 
@@ -14960,14 +14960,14 @@ module.exports={
     "fetchSpec": "=6.4.0"
   },
   "_requiredBy": [
-    "/bitcore-lib",
+    "/bitcore-lib-litecoinz",
     "/browserify-sign",
     "/create-ecdh"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
   "_spec": "elliptic@=6.4.0",
-  "_where": "/Users/ematiu/dev/bitcore-mnemonic/node_modules/bitcore-lib",
+  "_where": "/Users/ematiu/dev/bitcore-mnemonic/node_modules/bitcore-lib-litecoinz",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
